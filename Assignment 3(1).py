@@ -7,8 +7,8 @@ def getage():
 def getaddress():
     _address = input("what is your address? ")
     return _address
-def display(nameF, ageF, AddressF):
-     print(f"Hi, my name is {nameF}. I am {ageF} years old and I live in {AddressF}")
+def display(nameF, ageF, addressF):
+     print(f"Hi, my name is {nameF}. I am {ageF} years old and I live in {addressF}")
 name = getname()
 age = getage()
 address = getaddress()
