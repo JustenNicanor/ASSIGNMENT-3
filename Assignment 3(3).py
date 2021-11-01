@@ -18,3 +18,4 @@ appleprice = getappleprice()
 appleamount = getappleamount(moneyamount, appleprice)
 max_apples_rem_money = getmaxapplesremmoney(moneyamount, appleprice)
 display = getdisplay(appleamount, max_apples_rem_money)
+
